@@ -1,16 +1,13 @@
-import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useThemeProvider } from "../../providers/Theme.provider";
 import "./Header.scss";
 
 
-const Header: React.FC<any> = ({children}) => {
+const Header: React.FC = () => {
 
 	const { t, i18n } = useTranslation();
-	const {setTheme} = useThemeProvider();
-	const selectInp = useRef({} as HTMLSelectElement);
-	selectInp.current.value = i18n.language;
+	const {theme, setTheme} = useThemeProvider();
 
 	function changeLang(lang: string) {
 		i18n.changeLanguage(lang);
@@ -29,13 +26,16 @@ const Header: React.FC<any> = ({children}) => {
 			</ul>
 			<span className="spacer"></span>
 			<label className="theme-toggler">
-				<input onChange={e => { const selectedTheme = e.target.checked ? 'dark' : 'light'; setTheme(selectedTheme)}} type="checkbox" /> 
+				<input checked={theme === 'dark'} onChange={e => { const selectedTheme = e.target.checked ? 'dark' : 'light'; setTheme(selectedTheme)}} type="checkbox" /> 
 				{t('HEADER.THEME_TOGGLER')}
 			</label>
-			<select ref={selectInp} name="" id="" onChange={e => changeLang(e.target.value)}>
-				<option value="en">EN</option>
-				<option value="he">HE</option>
-			</select>
+			<div className="select">
+				<select className="lang-input" value={i18n.language} name="" id="" onChange={e => changeLang(e.target.value)}>
+					<option value="en">EN</option>
+					<option value="he">HE</option>
+				</select>
+				<span className="focus"></span>
+			</div>
 		</nav>
 	);
 };
