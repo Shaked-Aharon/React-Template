@@ -1,0 +1,32 @@
+{
+  "LANDING_PAGE": {
+    "TITLE": "נחיתה דף"
+  },
+  "LOGIN_PAGE": {
+    "TITLE": "התחברות דף",
+    "BUTTON": "התחבר",
+    "FORGOT_PASSWORD": "שחכת את הסיסמא?",
+    "DONT_HAVE_ACCOUNT": "אין לך משתמש?",
+    "REGISTER": "הירשם"
+  },
+  "NOTFOUND_PAGE": {
+    "TITLE": "לא נמצא דף"
+  },
+  "DASHBOARD_PAGE": {
+    "TITLE": "פאנל ניהול דף",
+    "HELLO": "שלום {fullName}"
+  },
+  "HEADER":{
+    "BRAND": "שם האתר",
+    "MENU": {
+      "DASHBOARD": "פאנל ניהול",
+      "LISTS": "הרשימות שלי"
+    },
+    "THEME_TOGGLER": "להשתמש בערכת נושא כהה?"
+  },
+  "GENERAL": {
+    "EMAIL": "אימייל",
+    "PASSWORD": "סיסמא",
+    "CLICK_HERE": "לחץ כאן"
+  } 
+}

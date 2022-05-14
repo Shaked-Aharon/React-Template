@@ -1,0 +1,31 @@
+// THEME REGION
+:root {
+    --background: rgb(119 187 255);
+    --background-secondary: #fcfcfc;
+    --text-primary: black;
+    --text-secondary: royalblue;
+    --accent: rgb(218, 193, 51);
+}
+
+[data-theme="dark"] {
+    --background: rgb(68, 73, 86);
+    --background-secondary: rgb(45, 49, 58);
+    --text-primary: white;
+    --text-secondary: grey;
+    // --accent: rgb(104, 194, 143);
+    --accent: rgb(26 121 67);
+}
+// END THEME REGION
+
+// UTIL REGION
+:root{
+    --transition-time: 0.5s;
+}
+// END UTIL REGION
+
+// CLOROS REGION
+:root{
+    --primary-color: var(--background);
+    // ...
+}
+// END COLORS REGION

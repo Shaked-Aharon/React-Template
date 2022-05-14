@@ -1,0 +1,12 @@
+.app {
+    color: var(--text-primary);
+    background-color: var(--background-secondary);
+    font-size: large;
+    font-weight: bold;
+    height: calc(100%);
+    transition: all var(--transition-time);
+}
+
+a {
+    color: var(--text-primary);
+}

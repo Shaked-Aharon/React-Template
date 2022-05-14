@@ -1,0 +1,32 @@
+{
+  "LANDING_PAGE": {
+    "TITLE": "LANDING PAGE"
+  },
+  "LOGIN_PAGE": {
+    "TITLE": "LOGIN PAGE",
+    "BUTTON": "Login",
+    "FORGOT_PASSWORD": "Forgot your password?",
+    "DONT_HAVE_ACCOUNT": "Doesn't have an account?",
+    "REGISTER": "Register"
+  },
+  "NOTFOUND_PAGE": {
+    "TITLE": "NOTFOUND PAGE"
+  },
+  "DASHBOARD_PAGE": {
+    "TITLE": "DASHBOARD PAGE",
+    "HELLO": "Hello {fullName}!"
+  },
+  "HEADER":{
+    "BRAND": "Site Name",
+    "MENU": {
+      "DASHBOARD": "Dashboard",
+      "LISTS": "Lists"
+    },
+    "THEME_TOGGLER": "Turn on Dark Theme?"
+  },
+  "GENERAL": {
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CLICK_HERE": "Click here"
+  }
+}

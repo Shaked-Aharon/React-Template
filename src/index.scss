@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+[data-lang="he"] {
+  *{
+      direction: rtl;
+  }
+}
