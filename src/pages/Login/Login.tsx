@@ -17,7 +17,7 @@ const Login: React.FC = () => {
 
 			<div className='visual-div'>
 				<h1>{t('LOGIN_PAGE.TITLE')}</h1>
-           		<button onClick={() => {login()}}>{t('LOGIN_PAGE.BUTTON')}</button>
+           		<button onClick={login}>{t('LOGIN_PAGE.BUTTON')}</button>
 			</div>
 
 			<div className='login'>
